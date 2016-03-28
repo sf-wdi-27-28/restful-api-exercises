@@ -1,0 +1,14 @@
+//My pseudo-code routes:
+
+
+
+Get All ICE-CREAM “/icecream”
+
+Get All ICE-CREAM by color “/ice-cream/:color”
+
+Get All ICE-CREAM by flavor “/videos/:flavor”
+
+Get All Gluten Free ICE-CREAM “/ice-cream/:gluten free”
+
+Post Ice Cream newFlavors “post: http://   /newFlavor”
+ 
