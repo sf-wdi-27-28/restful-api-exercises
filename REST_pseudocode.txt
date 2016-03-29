@@ -1,0 +1,13 @@
+
+
+//PSEUDOCODE
+
+GET ALL ICECREAM “/icecream”
+
+GET SPECIFIC FLAVORS “/flavors/:id”
+
+GET ALL FLAVORS “/flavors”
+
+GET FLAVORS BY CATEGORY “/categories/fruity” “/categories/glutenfree” “/categories/chunky”
+
+POST NEW FLAVOR “/flavors”
