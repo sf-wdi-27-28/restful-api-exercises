@@ -1,0 +1,7 @@
+Getting ice cream by flavors--using APIs.. nouns should
+be plural to make APIs less confusing when searching.
+
+GET all flavors-- '/api/icecream/flavors'
+GET by individual flavors-- '/api/icecream/:flavors'
+GET by category-- '/api/icecream/categories/:category'
+POST-- '/api/icecream/flavors'
