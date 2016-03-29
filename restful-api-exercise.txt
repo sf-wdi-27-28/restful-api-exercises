@@ -1,0 +1,16 @@
+w03d01 hw
+
+Getting specific information about ice cream:
+pseudo code:
+GET ALL FLAVORS               "api/ice_cream/flavor"
+GET FLAVOR BY ID              "api/ice_cream/:id"
+GET ALL CATEGORIES            "api/category/"
+GET ALL FLAVORS IN CATEGORY   "api/ice_cream/category/:id/flavors"
+GET FLAVOR IN CATEGORY        "api/ice_cream/category/:id/flavors/:id"
+
+//within server.js
+app.post("api/ice_cream/:flavor",
+  function createFlavor(req, res){
+    var newFlavor = req.body.flavor
+    ice_cream.flavor.push(newFlavor);
+})
