@@ -1,0 +1,10 @@
+GET ALL THE DIFFERENT ICE-CREAM FLAVORS “/icecream”
+GET ICE-CREAM BY TYPES OF ICE-CREAM “/icecream/:id”
+GET ALL “ORGANIC” ICE-CREAMS “/icecream//organic”
+GET “ORGANIC” ICE-CREAMS SPECIFIC FLAVOR “/icecream/organic/:id”
+GET ALL “FRUITY” ICE-CREAM FLAVORS “/icecream/fruity”
+GET “FRUITY” ICE-CREAMS SPECIFIC FLAVOR “/icecream/fruity/:id”
+GET ALL “GLUTEN-FREE” ICE-CREAMS “/icecream/glutenfree”
+GET “GLUTEN-FREE” ICE-CREAMS FLAVOR “/icecream/glutenfree/:id”
+GET ALL “WITH-NUTS” ICE-CREAM FLAVORS “/icecream/nuts”
+GET “WITH-NUTS” ICE-CREAMS SPECIFIC FLAVOR “/icecream/nuts/:id”
