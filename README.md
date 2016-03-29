@@ -56,6 +56,12 @@ Say we want to create an API similar to the one above, that returns data about i
 
 Write Pseudocode like the above. Be creative, and follow RESTful conventions and best practices.
 
+
+GET ALL ICECREAM FLAVORS CATEGORIES  "/icecream"
+GET FLAVOR CATEGORY "/icecream/:id"
+GET FLAVORS IN CAGAGORY "/icecream/:id/sorbet"
+GET FLAVOR "/icecream/:id/sorbet/:id"
+
 ### Deliverables
 
 Fork and clone this repo. Submit your pseudocode in a markdown or text file by making a pull request on this repository.
