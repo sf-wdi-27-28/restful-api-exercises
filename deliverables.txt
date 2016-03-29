@@ -1,0 +1,28 @@
+My pseudo-code routes:
+---
+GET
+---
+*Get all ice creams: "/iceCreams"
+*Get an ice cream by unique flavor name: "/iceCreams/:id"
+*Get all ice cream brands: "/brands"
+*Get a brand:"/brands/:id"
+*Get all flavors by a specific brand: "/brands/:id/iceCreams"
+*Get a specific brand's specific flavor: "brands/:id/iceCreams:id"
+*Get all fruity ice creams: "iceCreams/fruity"
+*Get a specific fruity ice cream: "iceCreams/fruity/:id"
+*Get a specific brand's fruity ice creams: "iceCreams/brands/:id/fruity/iceCreams"
+
+----
+POST
+----
+app.post('/iceCreams', function iceCreamsCreate(req, res) {
+  //Save data and say something about it.
+})
+*If the body parser middleware is used:
+app.post('/iceCreams', function iceCreamsCreate(req, res) {
+  var name=req.body.name;
+  var brand=req.body.brand;
+  var newIceCream = { name: name, brand: brand};
+  iceCreams.push(newIceCream);
+  res.json(iceCreams);
+})
