@@ -1,0 +1,9 @@
+// ICE CREAM GET/POST PSEDUDOCODE
+
+GET ALL ICE CREAM FLAVORS "/icecream"
+
+GET ICE ICEAM BY ID TYPE "/icecream/:id"
+
+GET FLAVOR BY CATEGORY "/icecream/flavor/category"
+
+POST NEW FLAVOR ICE CREAM "/icecream/flavor"
