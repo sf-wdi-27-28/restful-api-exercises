@@ -1,0 +1,45 @@
+// My pseudo-code routes:
+
+GET ALL ICE_CREAM "/ice_cream"
+
+GET ALL ICE_CREAM FLAVORS "/ice_cream/flavor"
+
+GET FLAVORS BY ID "ice_cream/flavor/:id"
+
+GET ICE_CREAM BY TYPE "ice_cream/type"
+//cream, bars, drumksticks, fruit bars, popscile, cones
+
+GET ICE_CREAM BRANDS "/ice_cream/brand"
+//Dreyers, Ben&Jerrys, Haagen_dazs, Tillamook, Baskin Robins, Klondike, Nestle,
+Talent, Blue Bunny, Thrifty, Mitchell's, Breyers, Trader Joe's
+
+GET ALL FRUITY FLAVORS "/ice_cream/flavor/fruity"
+//rasberry, strawberry, mango, lemon, coconut, banana, peach
+
+GET ALL CHOCOLATE FLAVORS "/ice_cream/flavor/chocolate"
+//chocolate chip, chocolate chip cookie dough, chocolate, cookies and cream
+//mint chocolate chip, rocky road, butter brickle, speculous cookie butter
+
+GET ALL VANILLA FLAVORS "/ice_cream/flavor/vanilla"
+//vanilla, french vanilla, vanilla bean, mango vanilla
+
+GET ALL FLAVORS WITH NUTS "/ice_cream/flavor/nuts"
+//butter pecan, pistachio, almond, peanut butter, brown break, walnut
+
+GET ALL TEA FLAVORS "/ice_cream/flavor/tea"
+//green tea, lavender honey, thai tea, mint
+
+GET ALL SORBET FLAVORS "/ice_cream/flavor/sorbet"
+// rasberry, orange, pineapple, mango, lemo, wild acai berry
+
+GET ALL COFFEE FLAVORS "/ice_cream/flavor/coffee"
+//mocha, coffee, coffee caramel, coffee bean
+
+GET ALL SPECIAL FLAVORS "/ice_cream/flavor/special"
+//garlic, bacon, crab, pumpkin, neopolitan, egg nog, ginger, cheese
+
+GET ALL CANDY_BARS FLAVORS "/ice_cream/favors/candy_bars"
+//Kit Kat, Snickers, M&M's, Reeses, Caramel, Twix, Milky Way, Crunch, Heath
+
+GET ALL FAT_FREE FLAVORS "/ice_cream/flavor/fat_free"
+// fat-free vanilla, fat-free chocolate, fat-free strawberry
