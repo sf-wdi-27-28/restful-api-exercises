@@ -1,0 +1,7 @@
+GET ALL FLAVORS "/flavors"
+
+GET A SPECIFIC FLAVOR "/flavors/:id"
+
+GET ALL FLAVORS IN A CATEGORY "/flavors/category/:category-id"
+
+POST A NEW FLAVOR "/flavors"
