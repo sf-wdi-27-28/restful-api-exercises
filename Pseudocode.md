@@ -7,10 +7,12 @@
 - GET ALL GLUTEN FREE FLAVORS ``"/ice_cream/:flavors/gluten_free"``
 - GET ALL CHUNKY FLAVORS ``"/ice_cream/:flavors/chunky"``
 - POST NEW FLAVORS
-````"api.post('api/ice_cream/:flavors", function flavorsCreate(req, res){
+```
+"api.post('api/ice_cream/:flavors", function flavorsCreate(req, res){
 var name = req.body.name;
 var desc = req/body.description;
 var newFlavor = {name: name, description:desc};
 flavors.push(newFlavor);
 res.json(flavors);
-});````
+});
+```
