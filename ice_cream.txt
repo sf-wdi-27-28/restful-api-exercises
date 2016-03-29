@@ -1,0 +1,8 @@
+///get all flavors
+/api/flavors
+///get fruity
+/api/flavor/:fruity
+///get gluten free
+/api/flavors/:gluten_free
+///get chunky
+/api/flavor/:chunky
