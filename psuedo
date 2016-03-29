@@ -1,0 +1,8 @@
+//GET ALL ICE CREAM
+  "/ice_cream"
+//GET ALL ICE CREAM BY FLAVORS
+  "/ice_cream/:flavors"
+//GET FRUITY ICE CREAM
+  "/ice_cream/:flavors/fruity"
+//POST NEW ICE CREAM FLAVORS
+  "api/ice_cream/flavors"
