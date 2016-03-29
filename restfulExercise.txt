@@ -1,0 +1,14 @@
+# **My pseudo-code routes for Ice-cream data retrieval:**
+
+
+- GET ALL ICECREAMS:                                 "/icecreams"
+
+- GET ICECREAM BY ID:                                "/icecreams/:id"
+
+- GET ALL FLAVORS:                                   "/flavors"
+
+- GET FLAVOR:                                        "/flavors/:id"
+
+- GET ALL FLAVORS OF ICECREAMS:                      "/flavors/:id/icecreams"
+
+- GET FLAVOR OF ICECREAM:                            "/flavors/:id/icecreams/:id"
