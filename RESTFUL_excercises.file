@@ -1,0 +1,19 @@
+##ICE CREAM API
+
+###What we want
+1. all flavors of ice cream
+1. an individual flavors
+1. an individual flavor thats healthy
+1. an individual flavor that healhty and contains nuts
+
+###Pseudo-code routes
+1."api/icecream"
+2."api/icecream/:flavor"
+3."api/icecream/:flavor/healthy"
+4."api/icecream/:flavor/healty/nuts"
+
+app.post("api/icecream/:flavor", function addFlavor(req, res){
+  var newFlavor = req.body.flavor
+  icecream.unshift(newFlavor);
+  res.json(icecream);
+})
