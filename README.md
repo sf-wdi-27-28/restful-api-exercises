@@ -59,3 +59,11 @@ Write Pseudocode like the above. Be creative, and follow RESTful conventions and
 ### Deliverables
 
 Fork and clone this repo. Submit your pseudocode in a markdown or text file by making a pull request on this repository.
+
+
+//pseudocode routes for icecream:
+
+GET ALL ICECREAM "/icecreams"
+GET ICECREAM BY FLAVOR "/icecreams/:flavor"
+GET ALL ICECREAM FLAVORS "/flavors"
+GET ICECREAM BY COST "/icecreams/:cost"
